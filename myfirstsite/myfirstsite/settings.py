@@ -31,8 +31,8 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
-    'signup',
-    'polls.apps.PollsConfig',
+    'usermanagement',
+    'campaignmanagment',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django',
         'USER': 'root',
-        'PASSWORD': '720354M@noj',
+        'PASSWORD': 'qwertyuiop',
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'AUTOCOMMIT': 'True',
@@ -89,7 +89,7 @@ DATABASES = {
             'NAME': 'djangoTest',
             'CREATE_DB': 'True',
             'USER': 'root',
-            'PASSWORD': '720354M@noj',
+            'PASSWORD': 'qwertyuiop',
         }
     }
 }
